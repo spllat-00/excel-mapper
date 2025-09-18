@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "excel-mapper"
+version = "1.0.0"
+description = "Map Excel columns to Python object attributes with dynamic access"
+readme = "README.md"
+authors = [
+    {name = "Payas Kale", email = "payaskale99@gmail.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    "pandas>=1.0",
+    "openpyxl>=3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/spllat-00/excel-mapper"
+Repository = "https://github.com/spllat-00/excel-mapper"
+Issues = "https://github.com/spllat-00/excel-mapper/issues"
+
+[tool.setuptools]
+packages = ["excel_mapper"]
